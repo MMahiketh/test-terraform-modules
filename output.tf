@@ -21,3 +21,7 @@ output "subnet_cidrs" {
     az2_subnet_cidrs = module.vpc.az2_subnet_cidrs
   }
 }
+
+output "public_subnet_ids" {
+  value = module.vpc.public_subnet_ids
+}
