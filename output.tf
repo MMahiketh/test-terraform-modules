@@ -17,7 +17,7 @@ output "selected_azs" {
 
 output "subnet_cidrs" {
   value = {
-    az1_subnet_cidrs = module.vpc.az1_cidrs,
-    az2_subnet_cidrs = module.vpc.az2_cidrs
+    az1_subnet_cidrs = module.vpc.az1_subnet_cidrs,
+    az2_subnet_cidrs = module.vpc.az2_subnet_cidrs
   }
 }
