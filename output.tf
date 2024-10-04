@@ -14,3 +14,10 @@ output "all_az_info" {
 output "selected_azs" {
   value = module.vpc.selected_azs
 }
+
+output "subnet_cidrs" {
+  value = {
+    az1_subnet_cidrs = module.vpc.az1_cidrs,
+    az2_subnet_cidrs = module.vpc.az2_cidrs
+  }
+}
