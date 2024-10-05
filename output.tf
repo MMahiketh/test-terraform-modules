@@ -69,3 +69,15 @@ output "private_route_id" {
 output "database_route_id" {
   value = module.vpc.database_route_id
 }
+
+output "public_route_association_id" {
+  value = module.vpc.public_route_association_id
+}
+
+output "private_route_association_id" {
+  value = module.vpc.private_route_association_id
+}
+
+output "database_route_association_id" {
+  value = module.vpc.database_route_association_id
+}
