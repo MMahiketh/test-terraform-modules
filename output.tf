@@ -41,3 +41,7 @@ output "db_subnet_group_id" {
 output "eip_public_ip" {
   value = module.vpc.eip_ip_address
 }
+
+output "nat_id" {
+  value = module.vpc.nat_id
+}
