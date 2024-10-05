@@ -81,3 +81,7 @@ output "private_route_association_id" {
 output "database_route_association_id" {
   value = module.vpc.database_route_association_id
 }
+
+output "peering_id" {
+  value = module.vpc.peering_id
+}
