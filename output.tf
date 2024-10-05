@@ -57,3 +57,15 @@ output "private_route_table_id" {
 output "database_route_table_id" {
   value = module.vpc.database_route_table_id
 }
+
+output "public_route_id" {
+  value = module.vpc.public_route_id
+}
+
+output "private_route_id" {
+  value = module.vpc.private_route_id
+}
+
+output "database_route_id" {
+  value = module.vpc.database_route_id
+}
