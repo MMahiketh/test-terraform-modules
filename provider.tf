@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket         = "terraform-prctc-state-files"
-    key            = "test-module"
+    key            = "test-sg-module"
     region         = "us-east-1"
     dynamodb_table = "terraform-prctc-locking"
   }
